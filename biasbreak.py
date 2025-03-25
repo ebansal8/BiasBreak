@@ -88,6 +88,7 @@ model = load_model()
 # Streamlit title page configuration-------------------------------------------------------------------------------
 st.markdown("<h1 style='text-align: center;'>BiasBreak</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center;'>Criminal Recidivism Predictor</h3>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center;'>by Ekaksh Bansal</h4>", unsafe_allow_html=True)
 st.write("")
 st.markdown("<p style='text-align: center;'>The AI Model to Analyze and Reveal Hidden Biases in Recidivism Prediction Models Used in Criminal Sentencing", unsafe_allow_html=True)
 
